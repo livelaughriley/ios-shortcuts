@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"files.defaultLanguage": "javascript"
+		"files.defaultLanguage": "javascript",
+		"files.exclude": {
+			"**node_modules": true
+		}
 	}
 }

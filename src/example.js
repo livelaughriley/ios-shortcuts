@@ -41,7 +41,7 @@ const actions = [
 const shortcut = buildShortcut(actions);
 
 // Write the Shortcut to a file in the current directory
-fs.writeFile('shortcuts/My Fancy Shortcut.shortcut', shortcut, (err) => {
+fs.writeFile('../shortcuts/My Fancy Shortcut.shortcut', shortcut, (err) => {
     if (err) {
         console.error('Something went wrong :(', err);
         return;
